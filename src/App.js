@@ -13,7 +13,7 @@ const user = {
   imageUrl: "/ObiWan.png",
   imageSize: 120,
   quote1: "Hello there.",
-  quote2: "Who's the more foolish? The fool, or the fool who follows him?",
+  quote2: "- Who's the more foolish? The fool, or the fool who follows him? -",
 };
 
 // const user2 = {
