@@ -40,7 +40,7 @@ function TopBar(){
 function Profile() {
   return (
     <>
-      <h1>{user.name}</h1>
+      <h1 className="heading">{user.name}</h1>
       <img
         className="avatar"
         src={user.imageUrl}
@@ -71,10 +71,10 @@ function MyButton(){
 function AboutPage(){
   return (
     <>
-      <h2>About</h2>
+      <h2 className="heading">About</h2>
       <p className="description">{user.quote1}
         <br />
-        ________________________________________
+        <div className="description-line">________________________________________</div>
         <br />
         <br />
       {user.quote2}</p>

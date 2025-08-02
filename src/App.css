@@ -64,11 +64,19 @@
     border-color: #61dafb;
     border-radius: 20px;
     color: #282c34;
+    box-shadow: #1f1f1f 5px 5px 7px;
+}
 
+.heading{
+  text-shadow: #1f1f1f 5px 5px 7px;
 }
 
 .description{
   margin-bottom: 80px;
+}
+
+.description-line{
+  text-shadow: #000000 5px 5px 7px;
 }
 
 .avatar {
